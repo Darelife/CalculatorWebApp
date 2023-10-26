@@ -1,0 +1,44 @@
+/* There's a CSS Specificity order btw */
+/* Basically the priority order */
+/* Inline > ID > Class > Element */
+/* https: //www.w3schools.com/css/css_specificity.asp */
+
+
+/* coolors.co */
+
+/* Black = rgb(0,0,0) */
+/* White = rgb(255,255,255) */
+/* Red = rgb(255,0,0) */
+/* Green = rgb(0,255,0) */
+/* Blue = rgb(0,0,255) */
+/* Yellow = rgb(255,255,0) */
+/* Cyan = rgb(0,255,255) */
+/* Magenta = rgb(255,0,255) */
+/* Silver = rgb(192,192,192) */
+/* Gray = rgb(128,128,128) */
+/* Maroon = rgb(128,0,0) */
+/* Olive = rgb(128,128,0) */
+/* Purple = rgb(128,0,128) */
+/* Teal = rgb(0,128,128) */
+/* Navy = rgb(0,0,128) */
+
+#first {
+    color: rgb(255, 0, 0);
+    background-color: orange;
+}
+
+#second {
+    color: crimson;
+    background: yellow;
+}
+
+/* There's also an rgba type */
+/* It's basically rgb with an opacity factor */
+/* Example : rgba(255, 0, 0, 0.5) */
+
+body {
+    background: rgba(77, 133, 207, 0.4);
+}  
+
+/* There's also a hex type */ 
+/* Example : #FF0000 */

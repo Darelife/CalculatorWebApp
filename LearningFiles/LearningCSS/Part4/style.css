@@ -1,0 +1,107 @@
+/* 
+Fonts
+*/
+body {
+    font-family:Helvetica;
+}
+h1 {
+    font-family: Verdana;
+}
+
+/* A Font Stack */
+/* 
+    A font stack is a list of fonts in the font-family property. The browser will use the first font in the list that is installed on the user's computer. If none of the fonts are installed, the browser will use the default font.
+*/
+/* Example */
+/* 
+    p {
+        font-family: "Times New Roman", Times, serif;
+    }
+*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+    /* padding: 0px; */
+    /* margin: 3px; */
+    /* border: 0px; */
+}
+/* The last one is a generic font family...so like, if the browser doesn't support any of them, it will choose a font related to the last one */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* GOOGLE FONTS */
+/* 
+    Google Fonts is a library of over 800 different typefaces, completely ready to be embedded in your web project. All of the fonts are open source, which mean you are free to use them in every way you want, privately or commercially - in print, on your computer, or in your websites.
+*/
+.gradientH1 {
+    font-family: 'Merienda';
+    background-image: linear-gradient(to bottom right, rgb(130, 241, 247), rgb(255, 255, 255));
+    padding:10px;
+    margin: 0;
+    border: 0px;
+    /* padding: 10px 20px 10px; */
+    /* border-left: 5px solid rgb(86, 240, 248); */
+    /* padding-top:3px;
+    padding-right:3px;
+    padding-left:1px;
+    padding-bottom: 1px; */
+}
+.gradientP {
+    background: linear-gradient(to top right,rgb(130, 241, 247), rgb(255, 255, 255));
+    padding:10px;
+    margin: 0;
+    border: 0px;
+}
+body {
+    /* background: rgb(130, 241, 247); */
+    background: linear-gradient(to right, rgb(130, 241, 247), rgba(193, 249, 252, 255));
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* Other Padding Formats */
+/* 
+    padding: 10px 20px 30px 40px;
+    padding: 10px 20px 30px;
+    padding: 10px 20px;
+    padding: 10px;
+*/
+/* First (top right bottom left) */
+/* Second (top right bottom)  Here, left value = right value*/
+/* Third ((Top and Bottom) (Left and Right)) */
+/* Fourth (All) */
+
+.BorderRadiusH1 {
+    font-family: 'Merienda';
+    background:blue;
+    border:5px solid black;
+    border-radius: 20px;
+}
+.BorderRadiusP {
+    background:red;
+    padding: 20px;
+    border:13px solid green;
+    border-radius: 50%;
+    width:30vw;
+    /* cursor:pointer; */
+}
+
+/* Border Radius: 50% */
+/* To get an ellipse */
+
+/* Note : Margin can also be negative */
+
+/* Cursor */
+/* The shape of ur cursor when you hover over the element */
+/* 
+    cursor: pointer;
+    cursor: not-allowed;
+    cursor: wait;
+    cursor: help;
+    cursor: crosshair;
+    cursor: move;
+    cursor: text;
+    cursor: default;
+    cursor: url("example.png");
+*/

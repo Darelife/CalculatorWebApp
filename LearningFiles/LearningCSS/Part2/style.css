@@ -1,0 +1,48 @@
+/* absolute, relative
+pixels
+em, rem
+vw, vh
+font-size, height, width  */
+
+h1 {
+    font-size: 60px;
+    color:#4E598C;
+    /* color:white; */
+    background:#FCAF58;
+    background:#F9C784;
+    text-align: center;
+}
+body {
+    background:#F9C784;
+}
+
+/* em = relative value -> depends on parent (like div) */
+/* default: 1em = 16px */
+/* rem = relative value -> depends on root (like html) */
+/* default: 1rem = 16px */
+
+/* vw */
+/* 1vw = 1% of viewport width */
+/* vh */
+/* 1vh = 1% of viewport height */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.banner{
+    width:50vw;
+    height:50vh;
+    background:#FF8C42;
+    /* margin: 0 auto; center */
+}
+.banner {
+    width:50vw;
+    height: 50vh;
+    background:blue;
+}
+.header {
+    width:100vw;
+    height:100vh;
+    background:red;
+}
