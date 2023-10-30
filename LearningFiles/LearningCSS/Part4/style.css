@@ -1,6 +1,11 @@
 /* 
 Fonts
 */
+* {
+    margin:0;
+    padding:0;
+
+}
 body {
     font-family:Helvetica;
 }
@@ -33,6 +38,9 @@ h1 {
 /* 
     Google Fonts is a library of over 800 different typefaces, completely ready to be embedded in your web project. All of the fonts are open source, which mean you are free to use them in every way you want, privately or commercially - in print, on your computer, or in your websites.
 */
+h1 {
+    font-family: 'merienda';
+}
 .gradientH1 {
     font-family: 'Merienda';
     background-image: linear-gradient(to bottom right, rgb(130, 241, 247), rgb(255, 255, 255));
@@ -105,3 +113,60 @@ body {
     cursor: default;
     cursor: url("example.png");
 */
+.buttons {
+    margin:3rem;
+}
+
+#oneOutlineOffset {
+    background:#689f3f;
+    text-decoration:none;
+    padding:1.2rem 1.5rem;
+    color:#222;
+    text-transform:uppercase;
+    cursor:pointer;
+    border: 0.2rem solid #222;
+}
+
+#twoOutlineOffset {
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0.2rem solid #222;
+    outline-offset: -10px; /* This makes the outline appear inside the border */
+}
+
+#threeOutlineOffset {
+    background: #689f3f;
+    text-decoration: none;
+    padding: 1.2rem 1.5rem;
+    color: #222;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0.2rem solid #222;
+    outline-offset: 2px; /* This makes the outline appear outside the border */
+}
+
+/* The difference between outline and border */
+/* 
+    1. Outline doesn't take up space
+    2. Outline doesn't have a radius
+    3. Outline can be non-rectangular
+    4. Outline can be offset
+*/
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration:none;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+    background:#222;
+    color:#f15025;
+    padding:5px;
+    display:block;
+    /* margin:10px; */
+}
