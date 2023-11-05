@@ -52,4 +52,24 @@ body {
 }
 
 .operator {
-    color: rgb(106, 152, 250);}
+    color: rgb(106, 152, 250);
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 30%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .container {
+        max-width: 40%;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 80%;
+    }
+}
